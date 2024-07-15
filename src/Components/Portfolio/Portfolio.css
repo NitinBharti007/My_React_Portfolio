@@ -1,0 +1,116 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px 20px;
+    color: #333; /* Adjust text color as needed */
+  }
+  
+  .portfolio-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-title h1 {
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff; /* Adjust title color as needed */
+  }
+  
+  .portfolio-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; /* Adjust gap between portfolio items */
+    width: 90%; /* Full width for responsiveness */
+  }
+  
+  .portfolio-item {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-item-image {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .portfolio-item-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333; /* Adjust heading color as needed */
+  }
+  
+  .portfolio-item-cta {
+    display: flex;
+    gap: 1rem; /* Adjust gap between buttons */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #6c63ff; /* Adjust button background color */
+    color: #fff; /* Adjust button text color */
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #524bd4; /* Adjust button hover background color */
+  }
+  
+  .btn-primary {
+    background-color: #4caf50; /* Adjust primary button background color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #3e8e41; /* Adjust primary button hover background color */
+  }
+
+
+  @media(max-width:768px){
+    .portfolio{
+        gap: 40px;
+        margin: 50px 10px;
+        align-items: center;
+    }
+    .portfolio-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .portfolio-title img{
+      width: 130px;
+      right: -20px;
+  }
+  }
+  

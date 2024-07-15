@@ -1,0 +1,79 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px 20px;
+  color: #333; /* Adjust text color as needed */
+}
+
+.education-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.education-title h1 {
+  padding: 0px 30px;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff; /* Adjust title color as needed */
+}
+
+.education-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Adjust gap between education items */
+  width: 90%; /* Width adjusted to fit the content */
+  margin-bottom: 1rem;
+}
+
+.education-item {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333; /* Adjust heading color as needed */
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #777; /* Adjust paragraph color as needed */
+}
+@media(max-width:768px){
+  .education{
+      gap: 40px;
+      margin: 50px 10px;
+      align-items: center;
+  }
+  .education-title h1{
+      font-size: 50px;
+      padding: 0;
+  }
+  .education-title img{
+    width: 130px;
+    right: -20px;
+}
+}
