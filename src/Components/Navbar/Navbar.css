@@ -2,7 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 140px;
+  margin: 20px 100px;
+}
+.navbar h1{
+  font-size: 40px;
+  padding-left: -10px;
 }
 .nav-menu {
   display: flex;
@@ -80,5 +84,21 @@
     padding-left: 40px;
     flex-direction: row;
     gap: 20px;
+  }
+}
+@media(max-width:1029px){
+  .nav-connects{
+    display: none;
+  }
+  .navbar h1{
+    padding-right: 15px;
+  }
+}
+@media(max-width:920px){
+  .navbar h1{
+    padding-right: 25px;
+  }
+  .nav-menu li{
+    gap: 10px;
   }
 }
