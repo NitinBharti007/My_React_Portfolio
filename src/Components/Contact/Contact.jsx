@@ -40,7 +40,7 @@ const Contact = () => {
           <h2>Let's Talk</h2>
           <p>I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.</p>
           <div className="contact-details">
-            <p><FaEnvelope /> <span>nitinbharti6394358223@gmail.com</span></p>
+            <p><FaEnvelope /> <span>dev.nitin63@gmail.com</span></p>
             <p><FaPhone /> <span>+916394358223</span></p>
             <p><FaMapMarkerAlt /> <span>Noida Sector 62, Uttar Pradesh</span> </p>
           </div>

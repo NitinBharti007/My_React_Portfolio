@@ -79,7 +79,7 @@ const Skill = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Python</h4>
+                <h4>ExpressJS</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>

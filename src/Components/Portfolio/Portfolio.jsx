@@ -1,26 +1,27 @@
 import React from "react";
 import "./Portfolio.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import IMG1 from "../../assets/portfolio1.png";
+import IMG1 from "../../assets/ArdorStudios.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
-import IMG4 from "../../assets/portfolio4.png";
+import IMG4 from "../../assets/CarRental.png";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.png";
-import IMG7 from "../../assets/portfolio7.png";
-import IMG8 from "../../assets/portfolio8.png";
+import IMG6 from "../../assets/Kay3ess.png";
+import IMG7 from "../../assets/Dashboard.png";
+import IMG8 from "../../assets/TapeTech.png";
 import IMG9 from "../../assets/portfolio9.png";
-import IMG10 from "../../assets/portfolio10.png";
-import IMG11 from "../../assets/portfolio11.png";
+import IMG10 from "../../assets/Jewellery.png";
+import IMG11 from "../../assets/FoodUI.png";
+import IMG12 from "../../assets/Podcast.png";
 
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Calculator App",
-    github: "https://github.com/NitinBharti007/Calculator_App",
-    demo: "https://simplecalculatornitin.netlify.app/",
+    title: "Ardor Studios",
+    github: "https://github.com/NitinBharti007/ARDOR.git",
+    demo: "https://ardorstudios.in/",
   },
   {
     id: 2,
@@ -40,9 +41,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Login Form",
-    github: "https://github.com/NitinBharti007/Login_form",
-    demo: "https://loginformnitin.netlify.app/",
+    title: "Car Rental App",
+    github: "https://github.com/NitinBharti007/ZYMO_ReactUI.git",
+    demo: "https://zymouireact.netlify.app/",
   },
 
   {
@@ -55,25 +56,25 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Movie App",
-    github: "https://github.com/NitinBharti007/MovieApp",
-    demo: "https://movieapp-nitin.vercel.app/",
+    title: "Manufacturing App",
+    github: "https://github.com/NitinBharti007/KAY3ESS_PROJECT.git",
+    demo: "https://kay3ess.vercel.app/",
   },
 
   {
     id: 7,
     image: IMG7,
-    title: "Tic-Tac-Toe Game",
+    title: "Admin Dashboard",
     github: "https://github.com/NitinBharti007/Tic-tac-toe",
-    demo: "https://tictactoenitin.netlify.app/",
+    demo: "https://admindashboardvrv.vercel.app/",
   },
 
   {
     id: 8,
     image: IMG8,
-    title: "To-Do App",
-    github: "https://github.com/NitinBharti007/To-Do_App",
-    demo: "https://todonitin.netlify.app/",
+    title: "Manufacturing App",
+    github: "https://github.com/NitinBharti007/TapeTech_Solutions.git",
+    demo: "https://tape-tech-solutions.vercel.app/",
   },
 
   {
@@ -86,16 +87,23 @@ const data = [
   {
     id: 10,
     image: IMG10,
-    title: "Quiz App",
-    github: "https://github.com/NitinBharti007/Quiz_App",
-    demo: "https://quizappnitin.netlify.app/",
+    title: "Jewellery App",
+    github: "https://github.com/NitinBharti007/Jewellery_React_UI_App.git",
+    demo: "https://pahadi-sunar.vercel.app/",
   },
   {
     id: 11,
     image: IMG11,
-    title: "Weather App",
-    github: "https://github.com/NitinBharti007/Weather_App",
-    demo: "https://weatherapp-beta-dusky.vercel.app/",
+    title: "Food App",
+    github: "https://github.com/NitinBharti007/Food_App_ReactUI.git",
+    demo: "https://uttrakhandifood.vercel.app/",
+  },
+  {
+    id: 12,
+    image: IMG12,
+    title: "Podcast",
+    github: "https://github.com/NitinBharti007/Fresh-egg.git",
+    demo: "https://fresh-egg.vercel.app/",
   },
 ];
 const Portfolio = () => {
