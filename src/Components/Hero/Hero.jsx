@@ -9,7 +9,7 @@ const Hero = () => {
       <div id="home" className="hero">
         <img src={Profile_img} alt="Profile Image" />
         <h1>
-          <span>I'm Nitin Bharti,</span> a passionate frontend developer from Noida,
+          <span>I'm Nitin Bharti,</span> a passionate Full Stack Developer from Noida,
           India.
         </h1>
         <p>
